@@ -91,7 +91,7 @@ st.write("The distribution of Perch {} is negatively skewed.".format(selected_fe
 
 # Visualization 4: Histogram
 st.subheader("4: Histogram")  
-st.dataframe(df_Perch['Weight'])
+#st.dataframe(df_Perch['Weight'])
 fig, ax = plt.subplots()
 ax.hist(df_Perch['Weight'])
 
